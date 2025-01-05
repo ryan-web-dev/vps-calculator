@@ -17,7 +17,7 @@ import utils from '@/utils';
 
 const isMobile = utils.isMobile();
 if (isMobile) {
-    window.location.replace('./m');
+    window.location.replace('./m.html');
 }
 
 const app = createApp(App);
