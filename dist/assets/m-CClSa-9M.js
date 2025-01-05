@@ -472,4 +472,4 @@ function print() { __p += __j.call(arguments, '') }
  * tdesign v1.7.0
  * (c) 2024 TDesign Group
  * @license MIT
- */var w$=be(b$);be(O$);const S$=hu.isMobile();S$||window.location.replace("./pc");const Ie=Su(Eu);Ie.use(s$);Ie.use(c$);Ie.use(g$);Ie.use(Ri);Ie.use(Q1);Ie.use(n1);Ie.use(j1);Ie.use(w$);Ie.mount("#app");
+ */var w$=be(b$);be(O$);const S$=hu.isMobile();S$||window.location.replace("./pc.html");const Ie=Su(Eu);Ie.use(s$);Ie.use(c$);Ie.use(g$);Ie.use(Ri);Ie.use(Q1);Ie.use(n1);Ie.use(j1);Ie.use(w$);Ie.mount("#app");

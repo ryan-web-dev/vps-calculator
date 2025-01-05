@@ -881,4 +881,4 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
  * tdesign v1.10.6
  * (c) 2024 tdesign
  * @license MIT
- */var ZF=Ie(XF),QF=Ie(GF);const eM=If.isMobile();eM&&window.location.replace("./m");const Gt=zc(Jf);Gt.use(ZF);Gt.use(QF);Gt.use(kn);Gt.use(Hv);Gt.use(Qr);Gt.use(iI);Gt.use(NF);Gt.use(Zt);Gt.mount("#app");
+ */var ZF=Ie(XF),QF=Ie(GF);const eM=If.isMobile();eM&&window.location.replace("./m.html");const Gt=zc(Jf);Gt.use(ZF);Gt.use(QF);Gt.use(kn);Gt.use(Hv);Gt.use(Qr);Gt.use(iI);Gt.use(NF);Gt.use(Zt);Gt.mount("#app");
