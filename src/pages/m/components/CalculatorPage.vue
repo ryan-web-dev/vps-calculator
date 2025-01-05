@@ -16,11 +16,10 @@
         <t-form-item label="续费货币" name="currency">
           <t-cell arrow :title="getOptionsLabel(CurrencyCodeOptions, formData.currency)"
             @click="showState.currency = true" />
-          <!-- <t-select v-model="formData.currency" :options="CurrencyCodeOptions" @change="handleSelectChange"></t-select> -->
           <t-popup v-model="showState.currency" placement="bottom">
             <t-picker :columns="CurrencyCodeOptions" @confirm="(value) => {
               showState.currency = false;
-              handleConfirm('currency', value);
+              handleConfirm('currency', value[0]);
               handleSelectChange(value);
             }" @cancel="showState.currency = false">
               <template #option="item">{{ item.label }}</template>
@@ -33,11 +32,10 @@
         <t-form-item label="付款周期" name="duration">
           <t-cell arrow :title="getOptionsLabel(DurationOptions, formData.duration)"
             @click="showState.duration = true" />
-          <!-- <t-select v-model="formData.duration" :options="DurationOptions"></t-select> -->
           <t-popup v-model="showState.duration" placement="bottom">
             <t-picker :columns="DurationOptions" @confirm="(value) => {
               showState.duration = false;
-              handleConfirm('duration', value);
+              handleConfirm('duration', value[0]);
             }" @cancel="showState.duration = false">
               <template #option="item">{{ item.label }}</template>
             </t-picker>
